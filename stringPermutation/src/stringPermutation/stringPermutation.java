@@ -12,6 +12,11 @@ public static void main(String[] args){
 	String str2 = "dog ";
 	System.out.println("Input strings are : "+str1+" and "+str2);
 	
+	//base case
+	if(str1.length() != str2.length()){
+		System.out.println("Given two strings are anagrams of each other");
+	}
+	
 	if (sortString(str1).equals(sortString(str2))){
 		System.out.println("Given two strings are anagrams of each other");
 	}

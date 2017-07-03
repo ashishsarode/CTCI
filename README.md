@@ -1,2 +1,2 @@
 # CTCI
-Cracking the coding interview 6th edition solutions
+Cracking the coding interview 6th edition JAVA solutions

@@ -10,9 +10,9 @@ public class StringUniqueCharsDemo {
 		String str = "Punam!!";
 		System.out.println("Input string is : "+str);
 		uniqueChars(str);
-	}//end of main method
+	}
 
-	//method to find if string contains unique chars
+	
 	public static void uniqueChars(String str){
 		HashSet hs = new HashSet();
 		boolean isUnique = true;
